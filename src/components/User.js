@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { Card, } from 'semantic-ui-react';
-import { UserConsumer } from '../providers/UserProvider';
+import { UserContext } from '../providers/UserProvider';
 
 const User = () => {
   const { username, dateJoined, membershipLevel} = useContext(UserContext);

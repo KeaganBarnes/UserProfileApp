@@ -11,12 +11,12 @@ const Navbar = () => (
         <NavLink to="/">
           <Menu.Item>
             Home
-      </Menu.Item>
+          </Menu.Item>
         </NavLink>
         <NavLink to="/user/profile">
           <Menu.Item>
             User Profile
-      </Menu.Item>
+          </Menu.Item>
         </NavLink>
       </Menu>
     )}
